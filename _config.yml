@@ -1,11 +1,12 @@
 # site settings
 title: Newtechco Group
-subtitle: by NTN
+subtitle:
 email: info.newtechco@gmail.com
 description: Newtechco Group's website
 baseurl: ""
 url: 
 author:
+building: HCO Building
 street_address: 44 Ly Thuong Kiet
 city: Hanoi
 country: Vietnam
