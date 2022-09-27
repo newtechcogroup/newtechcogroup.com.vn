@@ -15,6 +15,53 @@ phone:
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         lang: vi
+         base-url: "/"
+    -
+     scope:
+         path: en
+     values:
+         lang: en
+         base-url: "/en/"
+
+# Value to use into url per language
+langs-value:
+    vn: ""
+    en: en
+
+
+# Translation
+transl:
+    home:
+        vi: "Trang chủ"
+        en: "Home"
+    group:
+        vi: "Tập đoàn"
+        en: "Group"
+    team:
+        vi: "Đội ngũ"
+        en: "Team"
+    associate:
+        vi: "Công ty thành viên"
+        en: "Associate Companies"
+    partner:
+        vi: "Đối tác"
+        en: "Partners"
+    career:
+        vi: "Tuyển dụng"
+        en: "Careers"
+    latest:
+        vi: "Tin tức"
+        en: "Latest"
+    contact:
+        vi: "Liên hệ"
+        en: "Contact"
+
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
