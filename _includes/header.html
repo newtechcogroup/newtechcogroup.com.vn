@@ -12,14 +12,10 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}">{{ page.title }}</a></li>
-	    	{% endif %}
-		{% endfor %}
-		{% for page in site.html_pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		<li><a href="{{ page.base-url | absolute_url }}{{ site.langs_value[page.lang] }}">{{ site.transl['home'][page.lang] }}</a></li>
+		{% for p in site.html_pages %}
+		    {% if p.layout != "home" and p.nav-menu == true and p.lang = page.lang %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ site.transl.[page.title][page.lang] }}</a></li>
 		    {% endif %}
 		{% endfor %}
 	</ul>
