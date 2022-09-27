@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: 'Nhất nghĩa vô lượng danh, nhất danh vô lượng nghĩa'
-description: null
+description: 'Quan hệ đồng hành chính trực trí tuệ'
 image: null
 author: null
 show_tile: false
