@@ -56,8 +56,8 @@ transl:
         vi: "Liên hệ"
         en: "Contact"
     lang:
-	    vi: "🇻🇳"
-	    en: "🇬🇧"
+        vi: "🇻🇳"
+        en: "🇬🇧"
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
