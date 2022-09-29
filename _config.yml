@@ -21,19 +21,13 @@ defaults:
          path: ""
      values:
          lang: vi
-         base-url: ""
+         lang-url: ""
     -
      scope:
          path: en
      values:
          lang: en
-         base-url: "en"
-
-# Value to use into url per language
-langs-value:
-    vi: ""
-    en: en
-
+         lang-url: "/en"
 
 # Translation
 transl:
