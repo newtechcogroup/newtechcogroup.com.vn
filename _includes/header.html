@@ -1,9 +1,14 @@
+{% assign queryTrans=site.posts | where:"lang-id", page.lang-id | sort: 'lang' %}
+{% if queryTrans.size == 0 %}
+  {% assign queryTrans=site.pages | where:"lang-id", page.lang-id | sort: 'lang' %}
+{% endif %}
+
 <!-- Wrapper -->
 <div id="wrapper">
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title | split: " " | first }}</strong> <span>"Group"</span></a>
 	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
@@ -12,15 +17,17 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-		<li><a href="{{ page.base-url | absolute_url }}{{ site.langs_value[page.lang] }}">{{ site.transl['home'][page.lang] }}</a></li>
+		<li><a href="{{ page.lang-url | absolute_url }}/">{{ site.transl.['home'].[page.lang] }}</a></li>
 		{% for p in site.html_pages %}
-		    {% if p.layout != "home" and p.nav-menu == true and p.lang = page.lang %}
-		        <li><a href="{{ p.url | absolute_url }}">{{ site.transl.[p.title | downcase][page.lang] }}</a></li>
+		    {% if p.layout != "home" and p.nav-menu == true %}
+		        <li><a href="{{ site.url }}{{ p.lang-url }}{{ p.url }}">{{ p.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
 	</ul>
 	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
+		<li><a href="{{ site.url }}{{ page.lang-url }}/contact.html" class="button special fit">{{ site.transl.['contact'].[page.lang] }}</a></li>
+    		{% for q in queryTrans %}
+      		<li><a class="button fit" href="{{ site.url }}{{ q.lang-url }}{{ q.url }}">{{ q.lang }}</a></li>
+    		{% endfor %}
 	</ul>
 </nav>
