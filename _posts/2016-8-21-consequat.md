@@ -1,5 +1,6 @@
 ---
 layout: post
+lang-id: cons
 title: Consequat
 description: Ipsum dolor sit amet
 image: assets/images/pic05.jpg
