@@ -74,6 +74,9 @@ socials:
   Slack:
 
 # build settings
+plugins:
+  - jemoji
+
 markdown: kramdown
 
 sass:
