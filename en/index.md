@@ -2,6 +2,7 @@
 layout: home
 title: Home
 landing-title: 'Nhất nghĩa vô lượng danh, nhất danh vô lượng nghĩa'
+lang-id: home
 description: null
 image: null
 author: null
