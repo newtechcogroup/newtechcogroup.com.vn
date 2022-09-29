@@ -31,7 +31,7 @@
 	<ul class="actions vertical">
 		<li><a href="{{ site.url }}{{ page.lang-url }}/contact.html" class="button special fit">{{ site.transl.['contact'].[page.lang] }}</a></li>
     		{% for q in queryTrans %}
-      		<li><a class="button fit" href="{{ site.url }}{{ q.url }}">{{ q.lang }}</a></li>
+      		<li><a class="button fit" href="{{ site.url }}{{ q.url }}">{{ site.transl.['lang'].[q.lang] }} {{ q.lang }}</a></li>
     		{% endfor %}
 	</ul>
 </nav>
