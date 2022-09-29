@@ -19,7 +19,7 @@
 	<ul class="links">
 		{% if page.lang == "vi" %}
 			<li><a href="{{ "" | absolute_url }}/">{{ site.transl.['home'].[page.lang] }}</a></li>
-		{% elseif page.lang == "en" %}
+		{% elsif page.lang == "en" %}
 			<li><a href="{{ page.lang-url | absolute_url }}/">{{ site.transl.['home'].[page.lang] }}</a></li>
 		{% endif %}
 		{% for p in site.html_pages %}
