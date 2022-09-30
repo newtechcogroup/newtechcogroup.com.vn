@@ -23,7 +23,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="group.html" class="image">
+		<a href="{{ site.url }}{{ page.lang-url }}/team.html" class="image">
 			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -33,13 +33,13 @@ nav-menu: true
 				</header>
 				<p>Ban lãnh đạo và đội ngũ giàu kinh nghiệm, năng động và tận tuỵ với công việc trong môi trường văn hoá doanh nghiệp giàu tính gắn kết như một đại gia đình.</p>
 				<ul class="actions">
-					<li><a href="group.html" class="button">Xem thêm</a></li>
+					<li><a href="{{ site.url }}{{ page.lang-url }}/team.html" class="button">site.transl.['learn_more'][page.lang]</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="associates.html" class="image">
+		<a href="{{ site.url }}{{ page.lang-url }}/associates.html" class="image">
 			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -49,13 +49,13 @@ nav-menu: true
 				</header>
 				<p>Những công ty con và các công ty trong danh mục đầu tư.</p>
 				<ul class="actions">
-					<li><a href="associtates.html" class="button">Xem thêm</a></li>
+					<li><a href="{{ site.url }}{{ page.lang-url }}/associates.html" class="button">site.transl.['learn_more'][page.lang]</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="partners.html" class="image">
+		<a href="{{ site.url }}{{ page.lang-url }}/partners.html" class="image">
 			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
@@ -65,7 +65,7 @@ nav-menu: true
 				</header>
 				<p>Những đối tác chiến lược và hợp tác ở trong và ngoài nước của chúng tôi.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Xem thêm</a></li>
+					<li><a href="{{ site.url }}{{ page.lang-url }}/partners.html" class="button">site.transl.['learn_more'][page.lang]</a></li>
 				</ul>
 			</div>
 		</div>
@@ -134,7 +134,7 @@ nav-menu: true
 		</header>
 		<p>Tìm hiểu thêm và các hoạt động và dự án mà chúng tôi đã và đang triển khai.</p>
 		<ul class="actions">
-			<li><a href="latest.html" class="button next">Xem thêm</a></li>
+			<li><a href="{{ site.url }}{{ page.lang-url }}/latest.html" class="button next">site.transl.['learn_more'][page.lang]</a></li>
 		</ul>
 	</div>
 </section>
