@@ -1,6 +1,7 @@
 ---
-title: Tập đoàn Newtechco
+title: Tập đoàn
 layout: landing
+lang-id: grp
 description: 'Tầm nhìn trở thành tập đoàn tư vấn đầu tư có tầm vóc quốc gia đóng góp tích cực cho sự phát triển và thịnh vượng của đất nước thông qua việc kết nối hiệu quả các nguồn lực và kiến tạo giá trị bền vững cho doanh nghiệp, nhà đầu tư và cộng đồng.<br />Sứ mệnh tạo dựng những thương hiệu uy tín, những nhà lãnh đạo có tầm vóc, đội ngũ cộng tác hiệu quả, tổ chức với năng lực thực thi xuất xắc và văn hóa thành công.'
 image: assets/images/pic07.jpg
 nav-menu: true
