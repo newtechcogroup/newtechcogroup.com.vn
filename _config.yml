@@ -58,10 +58,15 @@ transl:
     lang:
         vi: ":vietnam:"
         en: ":gb:"
+    home_button_action:
+        vi: "Bắt đầu"
+        en: "Get started"
     home_action:
         vi: "Bạn mong muốn hợp tác với chúng tôi?"
         en: "The next step"
-
+    learn_more:
+        vi: "Xem thêm"
+        en: "Learn more"
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
