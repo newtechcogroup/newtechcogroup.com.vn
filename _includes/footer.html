@@ -1,7 +1,7 @@
 <!-- Footer -->
 	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
+		<div class="inner" style="padding: 0;">
+			<ul class="icons" style="margin: 0 0 0.5em 0; float: right">
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
 						<li>
@@ -12,16 +12,13 @@
 					{% endif %}
 				{% endfor %}
 			</ul>
-			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+			<ul class="copyright" style="margin: 0 0 0.5em 0; float: left">
+				<li>&copy; {{ site.title }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
+				<li>Jekyll integration: <a href="https://github.com/andrewbanchich/forty-jekyll-theme" target="_blank">Andrew Banchich</a></li>
 			</ul>
 		</div>
 	</footer>
-
-</div>
 
 <!-- Scripts -->
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
