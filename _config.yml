@@ -58,19 +58,22 @@ transl:
     lang:
         vi: ":vietnam:"
         en: ":gb:"
+    home_action:
+        vi: "Bạn mong muốn hợp tác với chúng tôi?"
+        en: "The next step"
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/newtechcogroup
+  GitHub:
   GitLab:
   Google-Plus:
-  Instagram: https://www.instagram.com/frenkiedejong/?hl=en
+  Instagram:
   LinkedIn:
-  Twitter: https://twitter.com/FabrizioRomano
-  Facebook: https://vi-vn.facebook.com/akishop.com.vn/
+  Twitter:
+  Facebook:
   Slack:
 
 # build settings
