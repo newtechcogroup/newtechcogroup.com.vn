@@ -1,12 +1,12 @@
 ---
 layout: home
 title: Home
-landing-title: 'Nhất nghĩa vô lượng danh, nhất danh vô lượng nghĩa'
+landing-title: 'Kết nối các nguồn lực và kiến tạo những giá trị bền vững'
 lang-id: home
-description: 'Quan hệ đồng hành chính trực trí tuệ'
+description: 'Chính trực — Quan hệ — Trí tuệ — Thực thi — Đồng hành'
 image: null
 author: null
 show_tile: false
 ---
 
-Bồ Đề bản vô thọ. Minh cảnh diệc phi đài. Bản lai vô nhất vật. Hà xứ nhạ trần ai
+Hợp tác và đồng hành cùng chúng tôi.
