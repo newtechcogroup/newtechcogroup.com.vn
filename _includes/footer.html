@@ -1,19 +1,8 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner" style="padding: 0;">
-			<ul class="icons" style="margin: 0 0 0.5em 0; float: right">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
-						<li>
-							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-								<span class="label">{{ key_value[0] }}</span>
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-			<ul class="copyright" style="margin: 0 0 0.5em 0; float: left">
-				<li>&copy; {{ site.title }}</li>
+			<ul class="copyright">
+				<li>&copy; {{ site.title }} {{ site.time | date: '%Y' }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="https://github.com/andrewbanchich/forty-jekyll-theme" target="_blank">Andrew Banchich</a></li>
 			</ul>
