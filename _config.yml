@@ -64,13 +64,13 @@ transl:
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub:
+  GitHub: https://github.com/newtechcogroup
   GitLab:
   Google-Plus:
-  Instagram:
+  Instagram: https://www.instagram.com/frenkiedejong/?hl=en
   LinkedIn:
-  Twitter:
-  Facebook:
+  Twitter: https://twitter.com/FabrizioRomano
+  Facebook: https://vi-vn.facebook.com/akishop.com.vn/
   Slack:
 
 # build settings
