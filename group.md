@@ -33,7 +33,7 @@ nav-menu: true
 				</header>
 				<p>Ban lãnh đạo và đội ngũ giàu kinh nghiệm, năng động và tận tuỵ với công việc trong môi trường văn hoá doanh nghiệp giàu tính gắn kết như một đại gia đình.</p>
 				<ul class="actions">
-					<li><a href="{{ site.url }}{{ page.lang-url }}/team.html" class="button">site.transl.['learn_more'][page.lang]</a></li>
+					<li><a href="{{ site.url }}{{ page.lang-url }}/team.html" class="button">{{ site.transl.['learn_more'][page.lang] }}</a></li>
 				</ul>
 			</div>
 		</div>
@@ -49,7 +49,7 @@ nav-menu: true
 				</header>
 				<p>Những công ty con và các công ty trong danh mục đầu tư.</p>
 				<ul class="actions">
-					<li><a href="{{ site.url }}{{ page.lang-url }}/associates.html" class="button">site.transl.['learn_more'][page.lang]</a></li>
+					<li><a href="{{ site.url }}{{ page.lang-url }}/associates.html" class="button">{{ site.transl.['learn_more'][page.lang] }}</a></li>
 				</ul>
 			</div>
 		</div>
@@ -65,7 +65,7 @@ nav-menu: true
 				</header>
 				<p>Những đối tác chiến lược và hợp tác ở trong và ngoài nước của chúng tôi.</p>
 				<ul class="actions">
-					<li><a href="{{ site.url }}{{ page.lang-url }}/partners.html" class="button">site.transl.['learn_more'][page.lang]</a></li>
+					<li><a href="{{ site.url }}{{ page.lang-url }}/partners.html" class="button">{{ site.transl.['learn_more'][page.lang] }}</a></li>
 				</ul>
 			</div>
 		</div>
@@ -134,7 +134,7 @@ nav-menu: true
 		</header>
 		<p>Tìm hiểu thêm và các hoạt động và dự án mà chúng tôi đã và đang triển khai.</p>
 		<ul class="actions">
-			<li><a href="{{ site.url }}{{ page.lang-url }}/latest.html" class="button next">site.transl.['learn_more'][page.lang]</a></li>
+			<li><a href="{{ site.url }}{{ page.lang-url }}/latest.html" class="button next">{{ site.transl.['learn_more'][page.lang] }}</a></li>
 		</ul>
 	</div>
 </section>
